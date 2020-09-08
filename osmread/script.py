@@ -18,7 +18,7 @@ def main(argv=sys.argv):
     args = argparser.parse_args(argv[1:])
 
     element_count, node_count, way_count, relation_count = 0, 0, 0, 0
-    for e in parse_file(args.filename):
+    for e in parse_file('Rutgers Pathways.osm'):
         element_count += 1
 
         if isinstance(e, Node):

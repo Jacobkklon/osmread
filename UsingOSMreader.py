@@ -6,3 +6,4 @@ for entity in parse_file('Rutgers Pathways.osm'):
         highway_count += 1
 
 print("%d highways found" % highway_count)
+print("yeet")
